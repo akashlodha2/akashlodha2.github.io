@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+img {
+  border: 1px solid black;
+}
+
+section.main-content {
+  max-width: unset;
+}
