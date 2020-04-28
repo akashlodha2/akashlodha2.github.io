@@ -24,3 +24,18 @@ img {
 .site-footer {
   display: none;
 }
+
+a.homepage {
+  position: absolute;
+  width: 50px;
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px 0 0 0;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  background-image: url("/img/home_white.png");
+  fill: white;
+}
