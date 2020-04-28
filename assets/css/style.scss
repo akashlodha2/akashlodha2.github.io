@@ -25,16 +25,19 @@ img {
   display: none;
 }
 
+a.homepage:hover {
+  border: 1.5px solid white;
+}
 a.homepage {
   position: absolute;
-  width: 50px;
-  background-size: 75%;
+  width: 3.25rem;
+  background-size: 80%;
   background-position: center;
+  border-radius: 50%;
+  transition: border 50ms ease-out;
   background-repeat: no-repeat;
-  margin: 20px 0 0 0;
-  height: 50px;
-  // background-color: white;
-  // border-radius: 50%;
+  margin: 15px 0 0 0;
+  height: 3.25rem;
   display: block;
-  background-image: url("/img/home-white.png");
+  background-image: url("/img/github-icon.png");
 }
