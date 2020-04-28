@@ -1,10 +1,4 @@
-# Akash Lodha's Profile
-
-## This is my personal portfolio
-
----
-
 Projects:
 
 - [Cyber Physical Systems](./CPS "CPS Portfolio")
-- [Counter App](./simple-react-app "Counter")
+- [Counter App](./simple-react-app "React Counter App")
