@@ -1,3 +1,8 @@
+---
+layout: default
+title: Cyber Physical Systems
+---
+
 <!-- # Cyber Physical Systems -->
 
 ## This is my portfolio for CE-591
