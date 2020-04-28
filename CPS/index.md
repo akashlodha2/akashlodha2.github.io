@@ -4,7 +4,7 @@ title: Cyber Physical Systems
 description: This page showcases our portfolio for CE-591
 ---
 
-![](./1.png)
+## ![](./1.png)
 ![](./2.jpg)
 ![](./3.jpg)
 ![](./4.jpg)
