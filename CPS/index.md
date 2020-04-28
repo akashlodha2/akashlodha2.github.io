@@ -1,4 +1,9 @@
-# Cyber Physical Systems
+---
+title: Cyber Physical Systems
+description: This site showcases all of my work in CPS
+---
+
+<!-- # Cyber Physical Systems -->
 
 ## This is my portfolio for CE-591
 
