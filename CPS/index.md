@@ -8,43 +8,43 @@ description: This page showcases our portfolio for CE-591
 
 ---
 
-![](./2.jpg)
+![](./2.png)
 
 ---
 
-![](./3.jpg)
+![](./3.png)
 
 ---
 
-![](./4.jpg)
+![](./4.png)
 
 ---
 
-![](./5.jpg)
+![](./5.png)
 
 ---
 
-![](./6.jpg)
+![](./6.png)
 
 ---
 
-![](./7.jpg)
+![](./7.png)
 
 ---
 
-![](./8.jpg)
+![](./8.png)
 
 ---
 
-![](./9.jpg)
+![](./9.png)
 
 ---
 
-![](./10.jpg)
+![](./10.png)
 
 ---
 
-![](./11.jpg)
+![](./11.png)
 
 ---
 
@@ -53,3 +53,6 @@ description: This page showcases our portfolio for CE-591
 ---
 
 ![](./13.png)
+![](./14.png)
+![](./15.png)
+![](./16.png)
