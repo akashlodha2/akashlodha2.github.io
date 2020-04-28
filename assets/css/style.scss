@@ -11,3 +11,12 @@ img {
 section.main-content {
   max-width: unset;
 }
+
+.main-content hr {
+  height: 1px;
+  background-color: #a5a5a5;
+}
+
+.site-footer {
+  display: none;
+}
