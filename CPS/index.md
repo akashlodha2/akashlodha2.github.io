@@ -3,10 +3,6 @@
 ## This is my portfolio for CE-591
 
 ![](./Akash_001.jpg)
-
-
-
-
 ![](./Akash_002.jpg)
 ![](./Akash_003.jpg)
 ![](./Akash_004.jpg)
