@@ -12,14 +12,23 @@ img {
   padding: 0.2rem 6rem;
 }
 
-.sub-page section.main-content {
-  max-width: unset;
-  padding: none;
+.sub-page.CPS > .page-header {
+  background-color: #111b1e;
 }
 
-.main-content hr {
-  height: 1px;
-  background-color: #a5a5a5;
+.sub-page section.main-content {
+  max-width: unset;
+  padding: 0;
+}
+
+.main-content :first-child {
+  margin: 0;
+  font-size: 0;
+}
+
+.main-content img {
+  width: 100%;
+  margin: 0;
 }
 
 .site-footer {
@@ -29,6 +38,11 @@ img {
 a.homepage:hover {
   border: 1.5px solid white;
 }
+
+.project-tagline {
+  margin-bottom: 1em;
+}
+
 a.homepage {
   position: absolute;
   width: 3.25rem;
