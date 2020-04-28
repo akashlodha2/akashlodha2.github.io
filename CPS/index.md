@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: sub-page
 title: Cyber Physical Systems
+description: This site showcases all of my work in CPS
 ---
 
 <!-- # Cyber Physical Systems -->
