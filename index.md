@@ -7,4 +7,4 @@
 Projects:
 
 - [Cyber Physical Systems](./CPS "CPS Portfolio")
-- [Counter App](./counter "Counter")
+- [Counter App](./simple-react-app "Counter")
