@@ -2,4 +2,8 @@
 
 ## This is my personal portfolio
 
-## Coming Soon...
+---
+
+Projects:
+
+- [Cyber Physical Systems](./CPS "CPS Portfolio")
