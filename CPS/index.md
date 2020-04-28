@@ -1,14 +1,10 @@
 ---
 layout: sub-page
 title: Cyber Physical Systems
-description: This site showcases all of my work in CPS
+description: This page showcases our portfolio for CE-591
 ---
 
-<!-- # Cyber Physical Systems -->
-
-## This is my portfolio for CE-591
-
-![](./1.jpg)
+![](./1.png)
 ![](./2.jpg)
 ![](./3.jpg)
 ![](./4.jpg)
@@ -19,5 +15,5 @@ description: This site showcases all of my work in CPS
 ![](./9.jpg)
 ![](./10.jpg)
 ![](./11.jpg)
-![](./12.jpg)
-![](./13.jpg)
+![](./12.png)
+![](./13.png)
