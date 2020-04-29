@@ -8,6 +8,10 @@ img {
   margin-bottom: 30px;
 }
 
+.cps-page .main-content:first-child {
+  font-size: 0;
+}
+
 .sub-page > .page-header {
   padding: 0.2rem 6rem;
   padding-bottom: 0.6rem;
