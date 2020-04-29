@@ -45,67 +45,46 @@ img {
   margin-bottom: 1em;
 }
 
-a.homepage:hover {
+div.top-btn-container {
+  position: absolute;
+}
+
+a.top-icon:hover {
   border: 1.5px solid white;
+}
+
+a.top-icon {
+  position: relative;
+  width: 3.25rem;
+  background-size: 80%;
+  background-position: center;
+  border-radius: 50%;
+  transition: border 50ms ease-out;
+  background-repeat: no-repeat;
+  margin: 13px 0 0 0;
+  height: 3.25rem;
+  display: inline-block;
+  z-index: 10;
 }
 
 a.homepage {
-  position: absolute;
-  width: 3.25rem;
-  background-size: 80%;
-  background-position: center;
-  border-radius: 50%;
-  transition: border 50ms ease-out;
-  background-repeat: no-repeat;
-  margin: 13px 0 0 0;
-  height: 3.25rem;
-  display: block;
   background-image: url("/img/home-white.png");
-  z-index: 10;
-}
-
-@media screen and (max-width: 64em) and (min-width: 42em) {
-  a.homepage {
-    width: 2.25rem;
-    height: 2.25rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  a.homepage {
-    width: 1.75rem;
-    height: 1.75rem;
-  }
 }
 
 a.ghpage {
-  position: absolute;
-  width: 3.25rem;
-  background-size: 80%;
-  background-position: center;
-  border-radius: 50%;
-  transition: border 50ms ease-out;
-  background-repeat: no-repeat;
-  margin: 13px 0 0 0;
-  height: 3.25rem;
-  display: block;
-  background-image: url("/img/gh-icon.png");
-  z-index: 10;
-}
-
-a.ghpage:hover {
-  border: 1.5px solid white;
+  margin: 13px 0 0 10px;
+  background-image: url(/img/gh-icon.png);
 }
 
 @media screen and (max-width: 64em) and (min-width: 42em) {
-  a.ghpage {
+  a.top-icon {
     width: 2.25rem;
     height: 2.25rem;
   }
 }
 
 @media screen and (max-width: 42em) {
-  a.ghpage {
+  a.top-icon {
     width: 1.75rem;
     height: 1.75rem;
   }
