@@ -1,6 +1,3 @@
----
----
-
 @import "{{ site.theme }}";
 
 img {
@@ -12,11 +9,11 @@ img {
   padding: 0.2rem 6rem;
 }
 
-.sub-page-CPS > .page-header {
+.sub-page-CPS > header {
   background-color: #111b1e;
 }
 
-.sub-page-CPS > .page-header > .project-name {
+.sub-page-CPS > h1.project-name {
   margin-bottom: 10px;
 }
 
