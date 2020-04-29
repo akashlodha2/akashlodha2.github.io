@@ -10,10 +10,12 @@ img {
 
 .sub-page > .page-header {
   padding: 0.2rem 6rem;
+  padding-bottom: 0.6rem;
 }
 
 .sub-page.cps-page > header {
   background-color: #111b1e;
+  background-image: unset;
 }
 
 .sub-page.cps-page > h1.project-name {
@@ -60,4 +62,18 @@ a.homepage {
   display: block;
   background-image: url("/img/home-white.png");
   z-index: 10;
+}
+
+@media screen and (max-width: 64em) and (min-width: 42em) {
+  a.homepage {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+@media screen and (max-width: 42em) {
+  a.homepage {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
 }
