@@ -16,6 +16,10 @@ img {
   background-color: #111b1e;
 }
 
+.sub-page-CPS > .page-header > .project-name {
+  margin-bottom: 10px;
+}
+
 .sub-page section.main-content {
   max-width: unset;
   padding: 0;
@@ -51,8 +55,9 @@ a.homepage {
   border-radius: 50%;
   transition: border 50ms ease-out;
   background-repeat: no-repeat;
-  margin: 15px 0 0 0;
+  margin: 13px 0 0 0;
   height: 3.25rem;
   display: block;
   background-image: url("/img/home-white.png");
+  z-index: 10;
 }
