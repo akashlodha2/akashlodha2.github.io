@@ -75,7 +75,8 @@ a.top-icon:hover {
   border: 1.5px solid white;
 }
 
-a.top-icon {
+a.top-icon,
+.footer-icon {
   position: relative;
   width: 3.25rem;
   background-size: 80%;
@@ -87,6 +88,14 @@ a.top-icon {
   height: 3.25rem;
   display: inline-block;
   z-index: 10;
+}
+
+a.footer-icon.email {
+  background-image: url(/img/gmail-logo.png);
+}
+
+a.footer-icon.linkedin {
+  background-image: url(/img/linkedin-logo.png);
 }
 
 a.homepage {
@@ -115,4 +124,12 @@ a.ghpage {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "SF Display", "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+footer.page-footer {
+  position: absolute;
+  bottom: 10px;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
