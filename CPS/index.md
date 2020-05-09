@@ -18,4 +18,3 @@ description: This page showcases our portfolio for CE-591
 ![](./12.png)
 ![](./13.png)
 ![](./14.png)
-![](./15.png)
