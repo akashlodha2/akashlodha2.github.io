@@ -18,6 +18,11 @@ img {
   padding-bottom: 0.6rem;
 }
 
+.default > .page-header {
+  padding: 2rem 6rem;
+  background-image: linear-gradient(120deg, #242529, #272a2b);
+}
+
 .sub-page.cps-page > header {
   background-color: #111b1e;
   background-image: unset;
@@ -46,6 +51,7 @@ h1 {
 
 .main-content li a {
   font-size: 20px;
+  color: #06c;
 }
 
 .main-content img {
