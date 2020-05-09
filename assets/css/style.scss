@@ -89,22 +89,43 @@ a.top-icon,
   display: inline-block;
   z-index: 10;
 }
+.footer-icon {
+  background-size: 64%;
+}
 
-a.footer-icon.email {
+.contact-container > a {
+  cursor: pointer;
+  line-height: 3.25rem;
+  display: inline-flex;
+}
+
+.gmail {
   background-image: url(/img/mail-logo.png);
 }
 
-a.footer-icon.linkedin {
+.linkedin {
   background-image: url(/img/ln-logo.png);
+}
+
+.footer-icon.email {
+  background-size: 80%;
+}
+
+a.footer-icon:hover {
+  transform: scale(1.2);
 }
 
 a.homepage {
   background-image: url("/img/home-white.png");
 }
-
-a.ghpage {
-  margin: 13px 0 0 10px;
+.github-logo {
   background-image: url(/img/gh-icon.png);
+}
+.github-logo-black {
+  background-image: url(/img/gh-logo-black.png);
+}
+.top-icon.github-logo {
+  margin: 13px 0 0 10px;
 }
 
 @media screen and (max-width: 64em) and (min-width: 42em) {
