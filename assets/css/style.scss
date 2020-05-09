@@ -91,6 +91,7 @@ a.top-icon,
 }
 .footer-icon {
   background-size: 64%;
+  margin: 0px;
 }
 
 .contact-container > a {
@@ -149,7 +150,7 @@ body {
 
 footer.page-footer {
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   display: block;
   width: 100%;
   text-align: center;
