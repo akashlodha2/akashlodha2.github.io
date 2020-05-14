@@ -4,6 +4,26 @@
 @import "{{ site.theme }}";
 @import "sf-pro.css";
 
+@media screen and (max-width: 64em) and (min-width: 42em) {
+  a.top-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}
+
+@media screen and (max-width: 42em) {
+  a.top-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 42em) {
+  .default .page-header {
+    padding: 2rem 1rem;
+  }
+}
+
 img {
   // border: 1px solid black;
   margin-bottom: 30px;
@@ -133,20 +153,6 @@ a.homepage {
 }
 .top-icon.github-logo {
   margin: 13px 0 0 10px;
-}
-
-@media screen and (max-width: 64em) and (min-width: 42em) {
-  a.top-icon {
-    width: 2.25rem;
-    height: 2.25rem;
-  }
-}
-
-@media screen and (max-width: 42em) {
-  a.top-icon {
-    width: 1.75rem;
-    height: 1.75rem;
-  }
 }
 
 body {
