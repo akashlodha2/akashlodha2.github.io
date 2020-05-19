@@ -40,7 +40,7 @@ img {
 
 .default > .page-header {
   padding: 2rem 6rem;
-  background-image: linear-gradient(120deg, #242529, #272a2b);
+  background-image: linear-gradient(120deg, #141417, #171819);
 }
 
 .sub-page.cps-page > header {
@@ -107,13 +107,15 @@ a.top-icon,
   transition: border 50ms ease-out;
   background-repeat: no-repeat;
   margin: 13px 0 0 0;
-  height: 3.25rem;
+  height: 2.5rem;
   display: inline-block;
   z-index: 10;
 }
+
 .footer-icon {
   margin: 0px;
   width: 2.5rem;
+  background-size: 70%;
 }
 
 .contact-container > a {
