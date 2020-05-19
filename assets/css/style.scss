@@ -131,6 +131,7 @@ a.top-icon,
 }
 
 .contact-container > a:hover {
+  text-decoration: unset;
   background: white;
   color: #0066cc;
   box-shadow: 0 0 10px 0px grey;
