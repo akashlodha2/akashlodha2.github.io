@@ -124,15 +124,14 @@ a.top-icon,
   display: inline-flex;
   vertical-align: middle;
   align-items: center;
-  border: 1px solid gainsboro;
-  border-radius: 0.6rem;
-  background: #26282a;
+  border-radius: 50px;
+  background: #0066d6;
   color: white;
 }
 
 .contact-container > a:hover {
   text-decoration: unset;
-  background: #0465ad;
+  background: #0251a7;
   color: #ffffff;
   transition: 200ms ease-out;
   border: none;
