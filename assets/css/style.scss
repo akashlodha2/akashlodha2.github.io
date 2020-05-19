@@ -112,18 +112,32 @@ a.top-icon,
   z-index: 10;
 }
 .footer-icon {
-  background-size: 90%;
   margin: 0px;
   width: 2.5rem;
 }
 
 .contact-container > a {
   cursor: pointer;
-  margin-left: 15px;
+  padding: 0px 15px;
+  margin: 0px 5px;
   line-height: 3.25rem;
   display: inline-flex;
   vertical-align: middle;
   align-items: center;
+  border: 1px solid gainsboro;
+  border-radius: 0.6rem;
+  box-sizing: border-box;
+  background: #26282a;
+  color: white;
+}
+
+.contact-container > a:hover {
+  border: none;
+  background: darkgreen;
+}
+
+.contact-container > a:hover .footer-icon {
+  transform: scale(1.2);
 }
 
 .gmail {
@@ -134,12 +148,12 @@ a.top-icon,
   background-image: url(/img/ln-logo.png);
 }
 
-.footer-icon.email {
-  background-size: 80%;
+.footer-icon.linkedin {
+  background-size: 90%;
 }
 
-.footer-icon:hover {
-  transform: scale(1.2);
+.footer-icon.github-logo {
+  background-size: 70%;
 }
 
 a.homepage {
@@ -162,11 +176,11 @@ body {
 
 footer.page-footer {
   position: relative;
-  bottom: 5px;
+  bottom: 10px;
   display: block;
   width: 100%;
   text-align: center;
-  border-top: 1px solid #797979;
+  // border-top: 1px solid #797979;
   width: 98%;
   margin: 0px 1%;
 }
