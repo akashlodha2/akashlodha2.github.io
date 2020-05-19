@@ -132,36 +132,32 @@ a.top-icon,
 
 .contact-container > a:hover {
   text-decoration: unset;
-  background: white;
-  color: #0066cc;
-  box-shadow: 0 0 10px 0px grey;
-}
-
-.contact-container > a:hover .footer-icon {
-  transform: scale(1.2);
-}
-
-.contact-container > a:hover .footer-icon.github-logo {
-  background-image: url(/img/gh-logo-black.png);
+  background: #0465ad;
+  color: #ffffff;
+  transition: 200ms ease-out;
+  border: none;
 }
 
 .gmail {
-  background-image: url(/img/mail-logo.png);
+  background-image: url(/img/mail-logo1.png);
 }
 
 .linkedin {
-  background-image: url(/img/ln-logo.png);
+  background-image: url(/img/ln-logo2.png);
 }
 
 a.homepage {
   background-image: url("/img/home-white.png");
 }
+
 .github-logo {
   background-image: url(/img/gh-icon.png);
 }
+
 .github-logo-black {
   background-image: url(/img/gh-logo-black.png);
 }
+
 .top-icon.github-logo {
   margin: 13px 0 0 10px;
 }
