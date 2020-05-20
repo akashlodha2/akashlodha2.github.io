@@ -19,8 +19,14 @@
 }
 
 @media screen and (max-width: 42em) {
-  .default .page-header {
+  .default > .page-header {
     padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 42em) {
+  /.contact-container a {
+    background-color: black;
   }
 }
 
