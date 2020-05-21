@@ -184,8 +184,15 @@ footer.page-footer {
   }
 }
 
+@media screen and (max-width: 42em) {
+  .sub-page .cps-page > .page-header {
+    padding: 2rem 1rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .contact-container a {
     background-color: black;
+    scale: 0.7;
   }
 }
