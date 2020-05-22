@@ -193,7 +193,7 @@ footer.page-footer {
 
 @media screen and (max-width: 480px) {
   .contact-container a {
-    background-color: black;
-    scale: 0.7;
+    transform: scale(0.5);
+    display: inline-flex;
   }
 }
