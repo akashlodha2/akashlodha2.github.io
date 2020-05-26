@@ -121,12 +121,24 @@ a.top-icon,
   border: none;
 }
 
+.contact-container > a:hover .contact-container .footer-icon.gmail {
+  background-image: url(/img/gmail-logo-filled.png);
+}
+
+.contact-container > a:hover .contact-container .footer-icon.linkedin {
+  background-image: url(/img/ln-logo-filled.png);
+}
+
+.contact-container > a:hover .contact-container .footer-icon.github-logo {
+  background-image: url(/img/gh-logo-filled.png);
+}
+
 .gmail {
-  background-image: url(/img/mail-logo1.png);
+  background-image: url(/img/gmail-logo-bordered.png);
 }
 
 .linkedin {
-  background-image: url(/img/ln-logo2.png);
+  background-image: url(/img/ln-logo-bordered.png);
 }
 
 a.homepage {
@@ -134,11 +146,11 @@ a.homepage {
 }
 
 .github-logo {
-  background-image: url(/img/gh-icon.png);
+  background-image: url(/img/gh-logo-filled.png);
 }
 
-.github-logo-black {
-  background-image: url(/img/gh-logo-black.png);
+.github-logo-bordered {
+  background-image: url(/img/gh-logo-bordered.png);
 }
 
 .top-icon.github-logo {
