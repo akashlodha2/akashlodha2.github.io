@@ -179,6 +179,14 @@ footer.page-footer {
 
 .main-content li::after {
   content: " >";
+  font-family: -apple-system, BlinkMacSystemFont, "SF Display", "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #0066d6;
+  font-weight: 500;
+}
+
+.main-content li {
+  line-height: 35px;
 }
 
 .main-content ul {
