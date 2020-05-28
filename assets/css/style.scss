@@ -19,11 +19,12 @@ img {
 }
 
 .default > .page-header {
-  padding: 2rem 6rem;
+  color: #1d2429;
+  padding: 1.5rem 6rem;
   background-image: url(/img/title-bar.jpg);
   background-repeat: no-repeat;
-  background-size: 150% 400px;
-  animation: banner-gradient 20s ease-out infinite;
+  background-size: 120% 400px;
+  animation: banner-gradient 15s ease-out infinite;
 }
 
 .sub-page.cps-page > header {
@@ -34,6 +35,10 @@ img {
 .sub-page.cps-page > h1.project-name {
   margin-bottom: 10px;
   font-weight: 550;
+}
+
+.page-header .project-tagline {
+  margin: 0 0 10px 0;
 }
 
 h1 {
