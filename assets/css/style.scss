@@ -19,12 +19,16 @@ img {
 }
 
 .default > .page-header {
-  color: #1d2429;
+  //color: #1d2429;
+  color: #fff;
   padding: 1.5rem 6rem;
-  background-image: url(/img/title-bar.jpg);
+  //background-image: url(/img/title-bar.jpg);
+  background-image: linear-gradient(45deg, #0957ad, #007ba0, #00a58e 70%);
   background-repeat: no-repeat;
-  background-size: 120% 400px;
-  animation: banner-gradient 15s ease-out infinite;
+  // background-size: 120% 400px;
+  // animation: banner-gradient 15s ease-out infinite;
+  background-size: 200%;
+  animation: banner-gradient 18s linear infinite;
 }
 
 .sub-page.cps-page > header {
