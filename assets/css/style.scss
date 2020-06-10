@@ -50,11 +50,6 @@ img {
   background-image: unset;
 }
 
-.sub-page.cps-page > h1.project-name {
-  margin-bottom: 10px;
-  font-weight: 300;
-}
-
 .page-header .project-tagline {
   margin: 0 0 10px 0;
 }
@@ -63,6 +58,11 @@ h1 {
   font-size: 4em;
   margin: 0.67em 0;
   font-weight: 600;
+}
+
+.cps-page > h1.project-name {
+  margin-bottom: 10px;
+  font-weight: 300;
 }
 
 .sub-page section.main-content {
