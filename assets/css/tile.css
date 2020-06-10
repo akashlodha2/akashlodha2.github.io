@@ -9,7 +9,7 @@ body{
     margin: 50px 0;
 }
 .project-tiles-list a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .tile-container {
     height: 400px;
@@ -28,6 +28,7 @@ body{
 
 .tile-image {
     height: 70%;
+    min-height: 70%;
     overflow: hidden;
     position: relative;
     transition: height 200ms ease-out;
@@ -37,7 +38,8 @@ body{
     border-top:none
 }
 .tile-container:hover .tile-image {
-    height: 60%;
+    height: 65%;
+    min-height: 65%;
 }
 .tile-container:hover .tile-image img {
     opacity: 0.95
